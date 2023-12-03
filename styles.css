@@ -12,6 +12,11 @@ html, body{
     width: 100%;
     min-height: 100vh;
 }
+@font-face {
+    font-family:;
+    src: url(Font/sf-pro-text_light.woff2)
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -24,4 +29,8 @@ nav{
 }
 nav a{
     text-decoration: none;
+    color: #333;
+}
+nav i{
+    font-size: 1.1vw;
 }
