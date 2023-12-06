@@ -1,7 +1,13 @@
+@font-face {
+    font-family: Font1;
+    src: url(font/sf-pro-text_regular.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Font1;
 
 }
 html, body{
@@ -12,10 +18,8 @@ html, body{
     width: 100%;
     min-height: 100vh;
 }
-@font-face {
-    font-family:;
-    src: url(Font/sf-pro-text_light.woff2)
-}
+
+
 
 nav{
     display: flex;
@@ -34,3 +38,224 @@ nav a{
 nav i{
     font-size: 1.1vw;
 }
+.part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    background-color: #000;
+    overflow: hidden;
+    
+}
+.text-part-1{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #fff;
+    top: 10%;
+    gap: 1.5vh;
+    flex-direction: column;
+    
+}
+.text-part-1 h1{
+    font-size: 3vw;
+
+}
+.text-part-1 p{
+    font-size: 1.6vw;
+   
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2vw ;
+}
+.link a{
+    text-decoration: none;
+    color: blue;
+    font-size: 1.2vw
+    
+}
+.link a:hover{
+    border-bottom: 1px solid blue;
+}
+.part-2{
+   
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+    background-image: url(image/image-2.jpg);
+
+    
+
+}
+.text-part-2{
+    display: flex;
+  
+   
+   
+    position: absolute;
+  
+}
+.shop{
+    color: blue;
+    font-size: 25px;
+}
+video{
+    width: 100%;
+  
+}
+.text-part-2{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+    top: 140%;
+    font-size: 30px;
+    }
+
+.text-part-1-1{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #ba1d1d;
+    display: flex;
+    flex-direction: column;
+    ;
+}
+.part-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    background-color: #000;
+    overflow: hidden;
+    background-image: url(image/image-2.jpg);
+   overflow: hidden;
+}
+.text-part-3 {
+    display: flex;
+    position: absolute;
+    color: #f3dcdc;
+    top:210% ;
+    width: 10% ;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    gap: 1.0vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+}
+
+
+.slider-part{
+    width: 100%;
+    height: 70vh;
+    
+    padding: 2vh 0vw;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide {
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+  }
+  .swiper-1{
+    background-image: url(image/1.jpg);
+  }
+  .swiper-2{
+    background-image: url(image/2.jpg)
+  }
+  .swiper-3{
+    background-image: url(image/3.jpg);
+  }
+  .swiper-4{
+    background-image: url(image/4.jpg);
+  }
+  .swiper-5{
+    background-image: url(image/5.jpg);
+  }
+  .swiper-6{
+    background-image: url(image/6.jpg);
+  }
+  .swiper-7{
+    background-image: url(image/7.jpg);
+  }
+  .swiper-8{
+    background-image: url(image/8.jpg);
+  }
+  .swiper-1{
+    background-image: url(image/1.jpg);
+  }
+  .swiper-1{
+    background-image: url(image/1.jpg);
+  }
+  .swiper-1{
+    background-image: url(image/1.jpg);
+  }
+  @media(max-width:500px){
+    .part-1{
+        display: none;
+    }
+    .slider-part{
+        display: none;
+    }
+    nav{
+        gap: 5vw;
+    }
+   
+    nav a{
+        display: none;
+    }
+    nav i{
+        font-size: 5vw;
+    }
+    .ri-apple-fill{
+        margin-right: 60vw;
+    }
+    .ri-menu-3-line{
+        display: initial;
+    }
+    .respo-nav{
+        display: initial;
+    }
+  }
